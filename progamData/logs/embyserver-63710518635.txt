@@ -1,0 +1,329 @@
+2019-11-28 06:09:07.176 Info Main: Application path: /system/EmbyServer.dll
+2019-11-28 06:09:07.535 Info Main: Emby
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Unix 5.0.0.36
+	64-Bit OS: True
+	64-Bit Process: True
+	User Interactive: True
+	Runtime: file:///system/System.Private.CoreLib.dll
+	Processor count: 8
+	Program data path: /config
+	Application directory: /system
+2019-11-28 06:09:07.710 Info App: Application version: 4.3.0.30
+2019-11-28 06:09:07.724 Info App: Loading assemblies
+2019-11-28 06:09:07.793 Info App: File /config/plugins/DvdMounter.dll has version 1.0.0.0
+2019-11-28 06:09:07.794 Info App: File /system/plugins/DvdMounter.dll has version 1.0.0.0
+2019-11-28 06:09:07.800 Info App: File /config/plugins/Emby.Server.CinemaMode.dll has version 1.0.30.0
+2019-11-28 06:09:07.801 Info App: File /system/plugins/Emby.Server.CinemaMode.dll has version 1.0.30.0
+2019-11-28 06:09:07.802 Info App: File /config/plugins/Emby.Dlna.dll has version 1.0.31.0
+2019-11-28 06:09:07.802 Info App: File /system/plugins/Emby.Dlna.dll has version 1.0.31.0
+2019-11-28 06:09:07.803 Info App: File /config/plugins/Fanart.dll has version 1.0.5.0
+2019-11-28 06:09:07.803 Info App: File /system/plugins/Fanart.dll has version 1.0.5.0
+2019-11-28 06:09:07.804 Info App: File /config/plugins/AudioDb.dll has version 1.0.6.0
+2019-11-28 06:09:07.805 Info App: File /system/plugins/AudioDb.dll has version 1.0.6.0
+2019-11-28 06:09:07.806 Info App: File /config/plugins/MusicBrainz.dll has version 1.0.9.0
+2019-11-28 06:09:07.806 Info App: File /system/plugins/MusicBrainz.dll has version 1.0.9.0
+2019-11-28 06:09:07.807 Info App: File /config/plugins/StudioImages.dll has version 1.0.1.0
+2019-11-28 06:09:07.807 Info App: File /system/plugins/StudioImages.dll has version 1.0.1.0
+2019-11-28 06:09:07.807 Info App: File /config/plugins/Emby.PortMapper.dll has version 1.0.2.0
+2019-11-28 06:09:07.808 Info App: File /system/plugins/Emby.PortMapper.dll has version 1.0.2.0
+2019-11-28 06:09:07.808 Info App: File /config/plugins/OMDb.dll has version 1.0.7.0
+2019-11-28 06:09:07.808 Info App: File /system/plugins/OMDb.dll has version 1.0.7.0
+2019-11-28 06:09:07.809 Info App: File /config/plugins/NfoMetadata.dll has version 1.0.23.0
+2019-11-28 06:09:07.810 Info App: File /system/plugins/NfoMetadata.dll has version 1.0.23.0
+2019-11-28 06:09:07.810 Info App: File /config/plugins/Tvdb.dll has version 1.0.22.0
+2019-11-28 06:09:07.812 Info App: File /system/plugins/Tvdb.dll has version 1.0.22.0
+2019-11-28 06:09:07.813 Info App: File /config/plugins/OpenSubtitles.dll has version 1.0.22.0
+2019-11-28 06:09:07.813 Info App: File /system/plugins/OpenSubtitles.dll has version 1.0.22.0
+2019-11-28 06:09:07.813 Info App: File /config/plugins/Emby.Webhooks.dll has version 1.0.8.0
+2019-11-28 06:09:07.813 Info App: File /system/plugins/Emby.Webhooks.dll has version 1.0.8.0
+2019-11-28 06:09:07.814 Info App: File /config/plugins/BlurayMounter.dll has version 1.0.0.0
+2019-11-28 06:09:07.814 Info App: File /system/plugins/BlurayMounter.dll has version 1.0.0.0
+2019-11-28 06:09:07.814 Info App: File /config/plugins/MovieDb.dll has version 1.2.6.0
+2019-11-28 06:09:07.814 Info App: File /system/plugins/MovieDb.dll has version 1.2.6.0
+2019-11-28 06:09:07.887 Info App: Loading DvdMounter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/DvdMounter.dll
+2019-11-28 06:09:07.887 Info App: Loading Emby.Server.CinemaMode, Version=1.0.30.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Server.CinemaMode.dll
+2019-11-28 06:09:07.887 Info App: Loading Emby.Dlna, Version=1.0.31.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Dlna.dll
+2019-11-28 06:09:07.887 Info App: Loading Fanart, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Fanart.dll
+2019-11-28 06:09:07.887 Info App: Loading AudioDb, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null from /config/plugins/AudioDb.dll
+2019-11-28 06:09:07.887 Info App: Loading MusicBrainz, Version=1.0.9.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MusicBrainz.dll
+2019-11-28 06:09:07.887 Info App: Loading StudioImages, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null from /config/plugins/StudioImages.dll
+2019-11-28 06:09:07.887 Info App: Loading Emby.PortMapper, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.PortMapper.dll
+2019-11-28 06:09:07.887 Info App: Loading OMDb, Version=1.0.7.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OMDb.dll
+2019-11-28 06:09:07.887 Info App: Loading NfoMetadata, Version=1.0.23.0, Culture=neutral, PublicKeyToken=null from /config/plugins/NfoMetadata.dll
+2019-11-28 06:09:07.887 Info App: Loading Tvdb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Tvdb.dll
+2019-11-28 06:09:07.888 Info App: Loading OpenSubtitles, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OpenSubtitles.dll
+2019-11-28 06:09:07.888 Info App: Loading Emby.Webhooks, Version=1.0.8.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Webhooks.dll
+2019-11-28 06:09:07.888 Info App: Loading BlurayMounter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/BlurayMounter.dll
+2019-11-28 06:09:07.888 Info App: Loading MovieDb, Version=1.2.6.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MovieDb.dll
+2019-11-28 06:09:07.888 Info App: Loading MediaBrowser.Api, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading MediaBrowser.WebDashboard, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading MediaBrowser.Model, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading MediaBrowser.Common, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading MediaBrowser.Controller, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading MediaBrowser.Providers, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading Emby.Photos, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading Emby.Server.Implementations, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading Emby.LiveTV, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading Emby.ActivityLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading Emby.Server.MediaEncoding, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading MediaBrowser.LocalMetadata, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading Emby.Notifications, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading Emby.Codecs.Dxva, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading Emby.Codecs, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading Emby.Server.Connect, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading Emby.Server.Sync, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:07.888 Info App: Loading EmbyServer, Version=4.3.0.30, Culture=neutral, PublicKeyToken=null
+2019-11-28 06:09:08.410 Info SqliteUserRepository: Sqlite version: 3.29.0
+2019-11-28 06:09:08.411 Info SqliteUserRepository: Sqlite compiler options: COMPILER=gcc-8.3.0,ENABLE_COLUMN_METADATA,ENABLE_DBSTAT_VTAB,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS3_TOKENIZER,ENABLE_FTS4,ENABLE_FTS5,ENABLE_JSON1,ENABLE_PREUPDATE_HOOK,ENABLE_RTREE,ENABLE_SESSION,ENABLE_UNLOCK_NOTIFY,ENABLE_UPDATE_DELETE_LIMIT,LIKE_DOESNT_MATCH_BLOBS,MAX_SCHEMA_RETRY=25,MAX_VARIABLE_NUMBER=250000,OMIT_LOOKASIDE,SECURE_DELETE,THREADSAFE=1
+2019-11-28 06:09:08.430 Info SqliteUserRepository: Default journal_mode for /config/data/users.db is wal
+2019-11-28 06:09:08.499 Info AuthenticationRepository: Default journal_mode for /config/data/authentication.db is wal
+2019-11-28 06:09:08.552 Info ActivityRepository: Default journal_mode for /config/data/activitylog.db is wal
+2019-11-28 06:09:08.557 Info SqliteDisplayPreferencesRepository: Default journal_mode for /config/data/displaypreferences.db is wal
+2019-11-28 06:09:08.569 Info App: Adding HttpListener prefix http://+:8096/
+2019-11-28 06:09:08.585 Info App: Adding HttpListener prefix https://+:8920/
+2019-11-28 06:09:08.730 Info SqliteItemRepository: Default journal_mode for /config/data/library.db is wal
+2019-11-28 06:09:10.476 Info Skia: SkiaSharp version: 1.68.0.0
+2019-11-28 06:09:10.516 Info TaskManager: Daily trigger for Thumbnail image extraction set to fire at 11/29/19 2:00:00 AM, which is 1190.82472462667 minutes from now.
+2019-11-28 06:09:10.534 Info TaskManager: Daily trigger for Rotate log file set to fire at 11/29/19 12:00:00 AM, which is 1070.82443132333 minutes from now.
+2019-11-28 06:09:10.544 Info App: ServerId: b8aab4e795ff4a95b36ff40350b3a12d
+2019-11-28 06:09:10.618 Info App: Starting entry point Emby.Dlna.Main.DlnaEntryPoint
+2019-11-28 06:09:10.794 Info Dlna: Registering publisher for urn:schemas-upnp-org:device:MediaServer:1
+2019-11-28 06:09:10.823 Info App: Init BeginReceive on 0.0.0.0
+2019-11-28 06:09:10.837 Info App: Entry point completed: Emby.Dlna.Main.DlnaEntryPoint. Duration: 0.2188659 seconds
+2019-11-28 06:09:10.837 Info App: Starting entry point Emby.Server.Connect.ConnectEntryPoint
+2019-11-28 06:09:10.847 Info App: Loading data from /config/data/connect.txt
+2019-11-28 06:09:10.856 Info App: Loading data from /config/data/wan.dat
+2019-11-28 06:09:10.864 Info App: Entry point completed: Emby.Server.Connect.ConnectEntryPoint. Duration: 0.027725 seconds
+2019-11-28 06:09:10.864 Info App: Core startup complete
+2019-11-28 06:09:10.865 Info App: Post-init migrations complete
+2019-11-28 06:09:10.865 Info App: Starting entry point Emby.Security.PluginSecurityManager
+2019-11-28 06:09:10.865 Info App: Entry point completed: Emby.Security.PluginSecurityManager. Duration: 9.24E-05 seconds
+2019-11-28 06:09:10.865 Info App: Starting entry point Emby.Server.CinemaMode.IntrosEntryPoint
+2019-11-28 06:09:10.866 Info App: Entry point completed: Emby.Server.CinemaMode.IntrosEntryPoint. Duration: 0.0014065 seconds
+2019-11-28 06:09:10.866 Info App: Starting entry point Emby.PortMapper.ExternalPortForwarding
+2019-11-28 06:09:10.876 Info App: Entry point completed: Emby.PortMapper.ExternalPortForwarding. Duration: 0.0093552 seconds
+2019-11-28 06:09:10.876 Info App: Starting entry point NfoMetadata.EntryPoint
+2019-11-28 06:09:10.877 Info App: Entry point completed: NfoMetadata.EntryPoint. Duration: 0.0015351 seconds
+2019-11-28 06:09:10.877 Info App: Starting entry point Emby.Webhooks.WebhooksEntryPoint
+2019-11-28 06:09:10.886 Info App: Entry point completed: Emby.Webhooks.WebhooksEntryPoint. Duration: 0.0084954 seconds
+2019-11-28 06:09:10.886 Info App: Starting entry point MediaBrowser.Api.ApiEntryPoint
+2019-11-28 06:09:10.886 Info App: Entry point completed: MediaBrowser.Api.ApiEntryPoint. Duration: 0.0001932 seconds
+2019-11-28 06:09:10.886 Info App: Starting entry point Emby.Server.Implementations.Udp.UdpServerEntryPoint
+2019-11-28 06:09:10.895 Info App: Entry point completed: Emby.Server.Implementations.Udp.UdpServerEntryPoint. Duration: 0.0086896 seconds
+2019-11-28 06:09:10.895 Info App: Starting entry point Emby.Server.Implementations.Playlists.PlaylistsEntryPoint
+2019-11-28 06:09:10.901 Info App: Entry point completed: Emby.Server.Implementations.Playlists.PlaylistsEntryPoint. Duration: 0.0060219 seconds
+2019-11-28 06:09:10.901 Info App: Starting entry point Emby.Server.Implementations.News.NewsEntryPoint
+2019-11-28 06:09:10.902 Info App: Entry point completed: Emby.Server.Implementations.News.NewsEntryPoint. Duration: 0.0007075 seconds
+2019-11-28 06:09:10.902 Info App: Starting entry point Emby.Server.Implementations.Library.DeviceAccessEntryPoint
+2019-11-28 06:09:10.905 Info App: Entry point completed: Emby.Server.Implementations.Library.DeviceAccessEntryPoint. Duration: 0.0026954 seconds
+2019-11-28 06:09:10.905 Info App: Starting entry point Emby.Server.Implementations.IO.LibraryMonitorStartup
+2019-11-28 06:09:11.373 Info App: Entry point completed: Emby.Server.Implementations.IO.LibraryMonitorStartup. Duration: 0.4678271 seconds
+2019-11-28 06:09:11.373 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint
+2019-11-28 06:09:11.375 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint. Duration: 0.0018133 seconds
+2019-11-28 06:09:11.375 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.KeepServerAwake
+2019-11-28 06:09:11.375 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.KeepServerAwake. Duration: 0.000833 seconds
+2019-11-28 06:09:11.375 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier
+2019-11-28 06:09:11.380 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier. Duration: 0.0040837 seconds
+2019-11-28 06:09:11.380 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.ServerEventNotifier
+2019-11-28 06:09:11.382 Info LibraryMonitor: Watching directory /mnt/share/vinny/files
+2019-11-28 06:09:11.386 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.ServerEventNotifier. Duration: 0.0064036 seconds
+2019-11-28 06:09:11.386 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.StartupWizard
+2019-11-28 06:09:11.388 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.StartupWizard. Duration: 0.0017191 seconds
+2019-11-28 06:09:11.388 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.SystemEvents
+2019-11-28 06:09:11.389 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.SystemEvents. Duration: 0.0013533 seconds
+2019-11-28 06:09:11.389 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier
+2019-11-28 06:09:11.390 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier. Duration: 0.0006693 seconds
+2019-11-28 06:09:11.390 Info App: Starting entry point Emby.Server.Implementations.Channels.ChannelsEntryPoint
+2019-11-28 06:09:11.401 Info App: Entry point completed: Emby.Server.Implementations.Channels.ChannelsEntryPoint. Duration: 0.0106374 seconds
+2019-11-28 06:09:11.401 Info App: Starting entry point Emby.LiveTV.EntryPoint
+2019-11-28 06:09:11.417 Info LiveTV: Loading live tv data from /config/data/livetv/timers
+2019-11-28 06:09:11.466 Info App: Entry point completed: Emby.LiveTV.EntryPoint. Duration: 0.0651014 seconds
+2019-11-28 06:09:11.466 Info App: Starting entry point Emby.LiveTV.RecordingNotifier
+2019-11-28 06:09:11.472 Info App: Entry point completed: Emby.LiveTV.RecordingNotifier. Duration: 0.0063358 seconds
+2019-11-28 06:09:11.472 Info App: Starting entry point Emby.ActivityLog.ActivityLogEntryPoint
+2019-11-28 06:09:11.480 Info App: Entry point completed: Emby.ActivityLog.ActivityLogEntryPoint. Duration: 0.0073138 seconds
+2019-11-28 06:09:11.480 Info App: Starting entry point Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint
+2019-11-28 06:09:11.487 Info App: Entry point completed: Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint. Duration: 0.0073612 seconds
+2019-11-28 06:09:11.487 Info App: Starting entry point Emby.Notifications.Notifications
+2019-11-28 06:09:11.490 Info App: Entry point completed: Emby.Notifications.Notifications. Duration: 0.0025993 seconds
+2019-11-28 06:09:11.490 Info App: Starting entry point Emby.Server.Sync.SyncManagerEntryPoint
+2019-11-28 06:09:11.496 Info HttpClient: GET https://emby.media/community/index.php?/blog/rss/1-media-browser-developers-blog
+2019-11-28 06:09:11.509 Info App: SyncRepository Initialize taking write lock
+2019-11-28 06:09:11.510 Info App: SyncRepository Initialize write lock taken
+2019-11-28 06:09:11.511 Info App: Entry point completed: Emby.Server.Sync.SyncManagerEntryPoint. Duration: 0.0209021 seconds
+2019-11-28 06:09:11.511 Info App: Starting entry point Emby.Server.Sync.SyncNotificationEntryPoint
+2019-11-28 06:09:11.517 Info App: Entry point completed: Emby.Server.Sync.SyncNotificationEntryPoint. Duration: 0.0054774 seconds
+2019-11-28 06:09:11.517 Info App: Starting entry point EmbyServer.Windows.LoopUtilEntryPoint
+2019-11-28 06:09:11.518 Info App: Entry point completed: EmbyServer.Windows.LoopUtilEntryPoint. Duration: 0.0013468 seconds
+2019-11-28 06:09:11.518 Info App: All entry points have started
+2019-11-28 06:09:12.601 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:12.912 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 320ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:13.529 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:13.538 Info TaskManager: StartupTrigger fired for task: Check for plugin updates
+2019-11-28 06:09:13.538 Info TaskManager: StartupTrigger fired for task: Check for application updates
+2019-11-28 06:09:13.539 Info TaskManager: StartupTrigger fired for task: Hardware Detection
+2019-11-28 06:09:13.565 Info TaskManager: Executing Check for plugin updates
+2019-11-28 06:09:13.565 Info TaskManager: Executing Check for application updates
+2019-11-28 06:09:13.565 Info TaskManager: Executing Hardware Detection
+2019-11-28 06:09:13.576 Info FfmpegManager: FFMpeg: /bin/ffmpeg
+2019-11-28 06:09:13.576 Info FfmpegManager: FFProbe: /bin/ffprobe
+2019-11-28 06:09:13.576 Info FfmpegManager: FFDetect: /bin/ffdetect
+2019-11-28 06:09:13.586 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
+2019-11-28 06:09:13.607 Info FfmpegManager: ProcessRun 'ffmpeg -hide_banner -version' Execute: /bin/ffmpeg -hide_banner -version
+2019-11-28 06:09:13.657 Info TaskManager: Check for application updates Completed after 0 minute(s) and 0 seconds
+2019-11-28 06:09:13.789 Info SoftwareCodecProvider: h264, libx264, libx264 Software Encoder, V-E-libx264
+2019-11-28 06:09:13.789 Info SoftwareCodecProvider: hevc, libx265, libx264 Software Encoder, V-E-libx265
+2019-11-28 06:09:13.789 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2 Software Encoder, V-E-mpeg4
+2019-11-28 06:09:13.789 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3) Software Encoder, V-E-msmpeg4
+2019-11-28 06:09:13.789 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2019-11-28 06:09:13.792 Info SoftwareCodecProvider: h264, libx264, libx264 Software Encoder, V-E-libx264
+2019-11-28 06:09:13.792 Info SoftwareCodecProvider: hevc, libx265, libx264 Software Encoder, V-E-libx265
+2019-11-28 06:09:13.792 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2 Software Encoder, V-E-mpeg4
+2019-11-28 06:09:13.792 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3) Software Encoder, V-E-msmpeg4
+2019-11-28 06:09:13.792 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2019-11-28 06:09:13.812 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Execute: /bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 vaencdec -print_format json 
+2019-11-28 06:09:13.907 Info VaapiCodecProvider: Adapter #0: 'UHD Graphics 620' Id:16032 (Driver: , Vendor: Intel Corporation)
+2019-11-28 06:09:13.912 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: /bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 qsvencdec -print_format json 
+2019-11-28 06:09:13.917 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 389ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:09:14.012 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: /bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 nvencdec -print_format json 
+2019-11-28 06:09:14.020 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1
+2019-11-28 06:09:14.267 Info TaskManager: Hardware Detection Completed after 0 minute(s) and 0 seconds
+2019-11-28 06:09:15.532 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:15.536 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 4ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:15.539 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:15.541 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 2ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:15.916 Info TaskManager: Check for plugin updates Completed after 0 minute(s) and 2 seconds
+2019-11-28 06:09:22.528 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:22.532 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 4ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:23.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:23.533 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 6ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:09:25.525 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:25.527 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 2ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:25.530 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:25.532 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 2ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:32.528 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:32.532 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 4ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:33.529 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:33.535 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 6ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:09:35.604 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:35.605 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 2ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:35.607 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:35.609 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 2ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:42.528 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:42.531 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 3ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:43.533 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:43.538 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:09:45.531 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:45.534 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 3ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:45.538 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:45.543 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 4ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:52.527 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:52.530 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 3ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:53.527 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:53.534 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 7ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:09:55.528 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:55.531 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 4ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:09:55.535 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:09:55.548 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 13ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:10:02.528 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:02.530 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 3ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:10:03.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:03.539 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 11ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:10:05.529 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:05.531 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 2ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:10:05.532 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:05.533 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 1ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:10:12.527 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:12.528 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 2ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:10:13.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:13.534 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 6ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:10:15.527 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:15.529 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 2ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:10:15.531 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:15.533 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 2ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:10:22.535 Info HttpServer: HTTP GET http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:22.540 Info HttpServer: HTTP Response 200 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/ScheduledTasks?IsEnabled=true
+2019-11-28 06:10:23.177 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:23.180 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 4ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:10:23.183 Info HttpServer: WS http://0.0.0.0:8096/embywebsocket?api_key=6bb02ad174344c63bc70e5a43d52ea13&deviceId=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNzguMC4zOTA0LjEwOCBTYWZhcmkvNTM3LjM2fDE1NzQ3NDcwNjQzMzE1. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:33.527 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:33.533 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 6ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:10:43.530 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:43.535 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:10:53.527 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:10:53.534 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 7ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:11:03.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:11:03.535 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 7ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:11:13.526 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:11:13.532 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 6ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:11:23.527 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:11:23.537 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 10ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:11:33.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:11:33.549 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 21ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:11:43.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:11:43.536 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 8ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:11:53.527 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:11:53.532 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:12:03.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:12:03.536 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 7ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:12:13.527 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:12:13.534 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 7ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:12:23.536 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:12:23.542 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 6ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:12:33.532 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:12:33.538 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 7ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:12:43.529 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:12:43.537 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 7ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:12:53.529 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:12:53.537 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 7ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:13:03.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:13:03.531 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 4ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:13:13.529 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:13:13.533 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 4ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:13:23.527 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:13:23.531 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 3ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:13:33.532 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:13:33.536 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:13:43.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:13:43.541 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 14ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:13:53.527 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:13:53.533 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 6ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:14:03.527 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:14:03.528 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 1ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:14:13.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:14:13.529 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 1ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:14:23.527 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:14:23.528 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 1ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:14:33.529 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:14:33.534 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:14:43.526 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:14:43.529 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 3ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:14:53.526 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:14:53.528 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 2ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:15:03.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:15:03.531 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 3ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:15:13.530 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:15:13.535 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:15:23.530 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:15:23.535 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:15:33.530 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:15:33.534 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:15:43.526 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:15:43.529 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 3ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:15:53.531 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:15:53.536 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:16:03.532 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:16:03.537 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:16:13.530 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:16:13.536 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 7ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:16:23.529 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:16:23.534 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 5ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:16:32.741 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:16:32.744 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 3ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:16:43.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:16:43.531 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 4ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:16:53.526 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:16:53.530 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 3ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress
+2019-11-28 06:17:03.528 Info HttpServer: HTTP POST http://0.0.0.0:8096/emby/Sessions/Playing/Progress. UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+2019-11-28 06:17:03.532 Info HttpServer: HTTP Response 204 to 172.21.0.1. Time: 4ms. http://0.0.0.0:8096/emby/Sessions/Playing/Progress

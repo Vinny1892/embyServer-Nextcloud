@@ -1,0 +1,182 @@
+2019-11-30 08:24:21.027
+Emby Server version: 4.3.0.30
+
+App: Emby Web 4.3.0.30
+Chrome
+
+http://0.0.0.0:8096/emby/videos/181/hls1/main/0.ts?DeviceId=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNzguMC4zOTA0LjEwOCBTYWZhcmkvNTM3LjM2fDE1NzQ3NDcwNjQzMzE1&MediaSourceId=73df6c4fca1820d7c16671d9d780c368&PlaySessionId=0b6ccbb5923241bcacf0426e83e5c1d2&api_key=6bb02ad174344c63bc70e5a43d52ea13&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=139808000&AudioBitrate=192000&AudioStreamIndex=1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=AudioCodecNotSupported
+
+{"Protocol":"File","Id":"73df6c4fca1820d7c16671d9d780c368","Path":"/mnt/share/vinny/files/tesers/Venom.2018.1080p.WEBRip.x264-DUAL.R5.WWW.COMANDOTORRENTS.COM.mkv","Type":"Default","Container":"mkv","Size":1987345207,"Name":"Venom.2018.1080p.WEBRip.x264-DUAL.R5.WWW.COMANDOTORRENTS.COM","IsRemote":false,"RunTimeTicks":64304840000,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"RequiresClosing":false,"RequiresLooping":false,"SupportsProbing":false,"MediaStreams":[{"Codec":"h264","TimeBase":"1/1000","CodecTimeBase":"1001/48000","VideoRange":"SDR","DisplayTitle":"1080p H264","NalLengthSize":"4","IsInterlaced":false,"IsAVC":true,"BitRate":2472405,"BitDepth":8,"RefFrames":1,"IsDefault":true,"IsForced":false,"Height":800,"Width":1920,"AverageFrameRate":23.9760246,"RealFrameRate":23.9760246,"Profile":"High","Type":"Video","AspectRatio":"2.40:1","Index":0,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","PixelFormat":"yuv420p","Level":41,"IsAnamorphic":false},{"Codec":"ac3","Language":"por","TimeBase":"1/1000","CodecTimeBase":"1/48000","Title":"COMANDOTORRENTS.COM","DisplayTitle":"Portuguese Dolby Digital stereo (Default)","DisplayLanguage":"Portuguese","IsInterlaced":false,"ChannelLayout":"stereo","BitRate":192000,"Channels":2,"SampleRate":48000,"IsDefault":true,"IsForced":true,"Type":"Audio","Index":1,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","Level":0},{"Codec":"aac","Language":"eng","TimeBase":"1/1000","CodecTimeBase":"1/48000","Title":"COMANDOTORRENTS.COM","DisplayTitle":"English AAC stereo","DisplayLanguage":"English","IsInterlaced":false,"ChannelLayout":"stereo","BitRate":192000,"Channels":2,"SampleRate":48000,"IsDefault":false,"IsForced":false,"Profile":"LC","Type":"Audio","Index":2,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","Level":0},{"Codec":"srt","Language":"eng","DisplayTitle":"English (SRT)","DisplayLanguage":"English","IsInterlaced":false,"IsDefault":false,"IsForced":false,"Type":"Subtitle","Index":3,"IsExternal":true,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":"/mnt/share/vinny/files/tesers/Venom.2018.1080p.WEBRip.x264-DUAL.R5.WWW.COMANDOTORRENTS.COM.en.srt","Protocol":"File"},{"Codec":"srt","Language":"pob","DisplayTitle":"Portuguese (Brazil) (SRT)","DisplayLanguage":"Portuguese (Brazil)","IsInterlaced":false,"IsDefault":false,"IsForced":false,"Type":"Subtitle","Index":4,"IsExternal":true,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":"/mnt/share/vinny/files/tesers/Venom.2018.1080p.WEBRip.x264-DUAL.R5.WWW.COMANDOTORRENTS.COM.pt-br.srt","Protocol":"File"}],"Formats":[],"Bitrate":2472405,"RequiredHttpHeaders":{},"ReadAtNativeFramerate":false}
+
+User policy for vinny: EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+
+/bin/ffmpeg -loglevel +timing -f matroska -noaccurate_seek -i file:"/mnt/share/vinny/files/tesers/Venom.2018.1080p.WEBRip.x264-DUAL.R5.WWW.COMANDOTORRENTS.COM.mkv" -threads 0 -map 0:0 -map 0:1 -sn -c:v:0 copy -bsf:v h264_mp4toannexb -copyts -vsync -1 -codec:a:0 libmp3lame -metadata:s:a:0 language=por -disposition:a:0 default -ac:a:0 2 -ab:a:0 192000  -f segment -max_delay 5000000 -avoid_negative_ts disabled -map_metadata -1 -map_chapters -1 -start_at_zero -segment_time 6  -individual_header_trailer 0 -break_non_keyframes 1 -segment_format mpegts -segment_write_temp 1 -segment_list_type m3u8 -segment_start_number 0 -segment_list "/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8" -y "/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f%d.ts"
+
+08:24:21.130 ffmpeg version 4.3.0-emby_2019_11_09 Copyright (c) 2000-2019 the FFmpeg developers and softworkz for Emby LLC
+08:24:21.130   built with gcc 8.3.0 (crosstool-NG 1.24.0)
+08:24:21.130 Execution Date: 2019-11-30 08:24:21
+08:24:21.161 Input #0, matroska,webm, from 'file:/mnt/share/vinny/files/tesers/Venom.2018.1080p.WEBRip.x264-DUAL.R5.WWW.COMANDOTORRENTS.COM.mkv':
+08:24:21.161   Metadata:
+08:24:21.161     title           : VENOM 2018 - BAIXE + NO COMANDOTORRENTS.COM
+08:24:21.161     encoder         : libebml v1.3.4 + libmatroska v1.4.5
+08:24:21.161     creation_time   : 2018-11-28T17:07:59.000000Z
+08:24:21.161   Duration: 01:47:10.48, start: 0.000000, bitrate: 2472 kb/s
+08:24:21.162     Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x800 [SAR 1:1 DAR 12:5], Level 41, 23.98 fps, 23.98 tbr, 1k tbn, 47.95 tbc (default)
+08:24:21.162     Metadata:
+08:24:21.162       BPS             : 2149188
+08:24:21.162       BPS-eng         : 2149188
+08:24:21.162       DURATION        : 01:47:10.424000000
+08:24:21.162       DURATION-eng    : 01:47:10.424000000
+08:24:21.162       NUMBER_OF_FRAMES: 154176
+08:24:21.162       NUMBER_OF_FRAMES-eng: 154176
+08:24:21.162       NUMBER_OF_BYTES : 1727524324
+08:24:21.162       NUMBER_OF_BYTES-eng: 1727524324
+08:24:21.162     Stream #0:1(por): Audio: ac3, 48000 Hz, stereo, fltp, 192 kb/s (default) (forced)
+08:24:21.162     Metadata:
+08:24:21.162       title           : COMANDOTORRENTS.COM
+08:24:21.162       BPS             : 192000
+08:24:21.162       BPS-eng         : 192000
+08:24:21.162       DURATION        : 01:47:10.400000000
+08:24:21.162       DURATION-eng    : 01:47:10.400000000
+08:24:21.162       NUMBER_OF_FRAMES: 200950
+08:24:21.162       NUMBER_OF_FRAMES-eng: 200950
+08:24:21.162       NUMBER_OF_BYTES : 154329600
+08:24:21.162       NUMBER_OF_BYTES-eng: 154329600
+08:24:21.162     Stream #0:2(eng): Audio: aac (LC), 48000 Hz, stereo, fltp
+08:24:21.162     Metadata:
+08:24:21.162       title           : COMANDOTORRENTS.COM
+08:24:21.162       BPS             : 128728
+08:24:21.162       BPS-eng         : 128728
+08:24:21.162       DURATION        : 01:47:10.484000000
+08:24:21.162       DURATION-eng    : 01:47:10.484000000
+08:24:21.162       NUMBER_OF_FRAMES: 301429
+08:24:21.162       NUMBER_OF_FRAMES-eng: 301429
+08:24:21.162       NUMBER_OF_BYTES : 103472972
+08:24:21.162       NUMBER_OF_BYTES-eng: 103472972
+08:24:21.163 Stream mapping:
+08:24:21.163   Stream #0:0 -> #0:0 (copy)
+08:24:21.163   Stream #0:1 -> #0:1 (ac3 (native) -> mp3 (libmp3lame))
+08:24:21.163 Press [q] to stop, [?] for help
+08:24:21.172 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f0.ts.tmp' for writing
+08:24:21.172 Output #0, segment, to '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f%d.ts':
+08:24:21.172   Metadata:
+08:24:21.172     encoder         : Lavf58.31.104
+08:24:21.172     Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x800 [SAR 1:1 DAR 12:5], q=2-31, Level 41, 23.98 fps, 23.98 tbr, 90k tbn, 23.98 tbc (default)
+08:24:21.172     Stream #0:1(por): Audio: mp3 (libmp3lame), 48000 Hz, stereo, fltp, 192 kb/s (default)
+08:24:21.172     Metadata:
+08:24:21.172       encoder         : Lavc58.56.101 libmp3lame
+08:24:21.446 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:21.446 SegmentComplete=video:0 Index=0 Start=0.000000 End=6.005000 Duration=6.005000 offset_pts=0 start_pts=0 Frames=144 filename=47064c5a5d8f9e517145502a9836288f0.ts
+08:24:21.446 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f1.ts.tmp' for writing
+08:24:21.663 frame=  245 fps=0.0 q=-1.0 size=     336kB time=00:00:10.32 bitrate= 266.6kbits/s throttle=off speed=20.6x    
+08:24:21.743 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:21.744 SegmentComplete=video:0 Index=1 Start=6.131000 End=11.970000 Duration=5.839000 offset_pts=0 start_pts=6131000 Frames=143 filename=47064c5a5d8f9e517145502a9836288f1.ts
+08:24:21.744 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f2.ts.tmp' for writing
+08:24:22.024 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:22.024 SegmentComplete=video:0 Index=2 Start=12.095000 End=17.976000 Duration=5.881000 offset_pts=0 start_pts=12095000 Frames=144 filename=47064c5a5d8f9e517145502a9836288f2.ts
+08:24:22.024 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f3.ts.tmp' for writing
+08:24:22.166 frame=  518 fps=518 q=-1.0 size=    2692kB time=00:00:21.67 bitrate=1017.6kbits/s throttle=off speed=21.7x    
+08:24:22.261 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:22.262 SegmentComplete=video:0 Index=3 Start=18.101000 End=23.982000 Duration=5.881000 offset_pts=0 start_pts=18101000 Frames=144 filename=47064c5a5d8f9e517145502a9836288f3.ts
+08:24:22.262 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f4.ts.tmp' for writing
+08:24:22.484 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:22.484 SegmentComplete=video:0 Index=4 Start=24.066000 End=29.988000 Duration=5.922000 offset_pts=0 start_pts=24066000 Frames=144 filename=47064c5a5d8f9e517145502a9836288f4.ts
+08:24:22.484 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f5.ts.tmp' for writing
+08:24:22.668 frame=  835 fps=555 q=-1.0 size=    5180kB time=00:00:34.99 bitrate=1212.7kbits/s throttle=off speed=23.3x    
+08:24:22.707 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:22.707 SegmentComplete=video:0 Index=5 Start=30.113000 End=36.035000 Duration=5.922000 offset_pts=0 start_pts=30113000 Frames=145 filename=47064c5a5d8f9e517145502a9836288f5.ts
+08:24:22.707 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f6.ts.tmp' for writing
+08:24:22.973 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:22.973 SegmentComplete=video:0 Index=6 Start=36.036000 End=42.000000 Duration=5.964000 offset_pts=0 start_pts=36036000 Frames=143 filename=47064c5a5d8f9e517145502a9836288f6.ts
+08:24:22.973 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f7.ts.tmp' for writing
+08:24:23.170 frame= 1143 fps=570 q=-1.0 size=   15832kB time=00:00:47.92 bitrate=2706.0kbits/s throttle=off speed=23.9x    
+08:24:23.177 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:23.178 SegmentComplete=video:0 Index=7 Start=42.000000 End=48.006000 Duration=6.006000 offset_pts=0 start_pts=42000000 Frames=144 filename=47064c5a5d8f9e517145502a9836288f7.ts
+08:24:23.178 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f8.ts.tmp' for writing
+08:24:23.376 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:23.376 SegmentComplete=video:0 Index=8 Start=48.048000 End=53.886000 Duration=5.838000 offset_pts=0 start_pts=48048000 Frames=141 filename=47064c5a5d8f9e517145502a9836288f8.ts
+08:24:23.376 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f9.ts.tmp' for writing
+08:24:23.573 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:23.573 SegmentComplete=video:0 Index=9 Start=54.012000 End=59.976000 Duration=5.964000 offset_pts=0 start_pts=54012000 Frames=146 filename=47064c5a5d8f9e517145502a9836288f9.ts
+08:24:23.573 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f10.ts.tmp' for writing
+08:24:23.670 frame= 1500 fps=599 q=-1.0 size=   18361kB time=00:01:02.61 bitrate=2402.1kbits/s throttle=off speed=  25x    
+08:24:23.795 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:23.795 SegmentComplete=video:0 Index=10 Start=60.102000 End=65.940000 Duration=5.838000 offset_pts=0 start_pts=60102000 Frames=143 filename=47064c5a5d8f9e517145502a9836288f10.ts
+08:24:23.795 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f11.ts.tmp' for writing
+08:24:23.995 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:23.996 SegmentComplete=video:0 Index=11 Start=66.066000 End=71.946000 Duration=5.880000 offset_pts=0 start_pts=66066000 Frames=144 filename=47064c5a5d8f9e517145502a9836288f11.ts
+08:24:23.996 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f12.ts.tmp' for writing
+08:24:24.170 frame= 1854 fps=617 q=-1.0 size=   20501kB time=00:01:17.30 bitrate=2172.5kbits/s throttle=off speed=25.7x    
+08:24:24.194 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:24.194 SegmentComplete=video:0 Index=12 Start=72.072000 End=77.994000 Duration=5.922000 offset_pts=0 start_pts=72072000 Frames=145 filename=47064c5a5d8f9e517145502a9836288f12.ts
+08:24:24.194 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f13.ts.tmp' for writing
+08:24:24.391 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:24.391 SegmentComplete=video:0 Index=13 Start=78.120000 End=84.000000 Duration=5.880000 offset_pts=0 start_pts=78120000 Frames=144 filename=47064c5a5d8f9e517145502a9836288f13.ts
+08:24:24.391 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f14.ts.tmp' for writing
+08:24:24.586 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:24.587 SegmentComplete=video:0 Index=14 Start=84.126000 End=90.006000 Duration=5.880000 offset_pts=0 start_pts=84126000 Frames=144 filename=47064c5a5d8f9e517145502a9836288f14.ts
+08:24:24.587 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f15.ts.tmp' for writing
+08:24:24.670 frame= 2218 fps=633 q=-1.0 size=   22374kB time=00:01:32.61 bitrate=1979.0kbits/s throttle=off speed=26.4x    
+08:24:24.785 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:24.785 SegmentComplete=video:0 Index=15 Start=90.132000 End=95.970000 Duration=5.838000 offset_pts=0 start_pts=90132000 Frames=143 filename=47064c5a5d8f9e517145502a9836288f15.ts
+08:24:24.785 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f16.ts.tmp' for writing
+08:24:24.987 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:24.987 SegmentComplete=video:0 Index=16 Start=96.096000 End=101.976000 Duration=5.880000 offset_pts=0 start_pts=96096000 Frames=144 filename=47064c5a5d8f9e517145502a9836288f16.ts
+08:24:24.987 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f17.ts.tmp' for writing
+08:24:25.170 frame= 2576 fps=643 q=-1.0 size=   25761kB time=00:01:47.56 bitrate=1961.9kbits/s throttle=off speed=26.8x    
+08:24:25.185 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:25.186 SegmentComplete=video:0 Index=17 Start=102.102000 End=107.940000 Duration=5.838000 offset_pts=0 start_pts=102102000 Frames=143 filename=47064c5a5d8f9e517145502a9836288f17.ts
+08:24:25.186 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f18.ts.tmp' for writing
+08:24:25.384 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:25.385 SegmentComplete=video:0 Index=18 Start=108.025000 End=114.030000 Duration=6.005000 offset_pts=0 start_pts=108025000 Frames=146 filename=47064c5a5d8f9e517145502a9836288f18.ts
+08:24:25.385 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f19.ts.tmp' for writing
+08:24:25.586 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:25.587 SegmentComplete=video:0 Index=19 Start=114.031000 End=120.036000 Duration=6.005000 offset_pts=0 start_pts=114031000 Frames=144 filename=47064c5a5d8f9e517145502a9836288f19.ts
+08:24:25.587 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f20.ts.tmp' for writing
+08:24:25.671 frame= 2942 fps=653 q=-1.0 size=   30670kB time=00:02:02.83 bitrate=2045.4kbits/s throttle=off speed=27.3x    
+08:24:25.778 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:25.778 SegmentComplete=video:0 Index=20 Start=120.120000 End=125.958000 Duration=5.838000 offset_pts=0 start_pts=120120000 Frames=142 filename=47064c5a5d8f9e517145502a9836288f20.ts
+08:24:25.778 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f21.ts.tmp' for writing
+08:24:25.978 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:25.979 SegmentComplete=video:0 Index=21 Start=126.084000 End=132.006000 Duration=5.922000 offset_pts=0 start_pts=126084000 Frames=145 filename=47064c5a5d8f9e517145502a9836288f21.ts
+08:24:25.979 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f22.ts.tmp' for writing
+08:24:26.172 frame= 3297 fps=658 q=-1.0 size=   35950kB time=00:02:17.61 bitrate=2140.0kbits/s throttle=off speed=27.5x    
+08:24:26.184 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:26.184 SegmentComplete=video:0 Index=22 Start=132.049000 End=137.929000 Duration=5.880000 offset_pts=0 start_pts=132049000 Frames=142 filename=47064c5a5d8f9e517145502a9836288f22.ts
+08:24:26.184 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f23.ts.tmp' for writing
+08:24:26.393 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:26.393 SegmentComplete=video:0 Index=23 Start=138.013000 End=143.976000 Duration=5.963000 offset_pts=0 start_pts=138013000 Frames=145 filename=47064c5a5d8f9e517145502a9836288f23.ts
+08:24:26.393 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f24.ts.tmp' for writing
+08:24:26.621 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:26.622 SegmentComplete=video:0 Index=24 Start=144.061000 End=149.941000 Duration=5.880000 offset_pts=0 start_pts=144061000 Frames=143 filename=47064c5a5d8f9e517145502a9836288f24.ts
+08:24:26.622 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f25.ts.tmp' for writing
+08:24:26.673 frame= 3621 fps=657 q=-1.0 size=   44300kB time=00:02:31.15 bitrate=2400.9kbits/s throttle=off speed=27.4x    
+08:24:26.921 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:26.922 SegmentComplete=video:0 Index=25 Start=150.025000 End=155.947000 Duration=5.922000 offset_pts=0 start_pts=150025000 Frames=144 filename=47064c5a5d8f9e517145502a9836288f25.ts
+08:24:26.922 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f26.ts.tmp' for writing
+08:24:27.174 frame= 3861 fps=643 q=-1.0 size=   49297kB time=00:02:41.20 bitrate=2505.1kbits/s throttle=off speed=26.8x    
+08:24:27.216 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:27.216 SegmentComplete=video:0 Index=26 Start=156.031000 End=162.036000 Duration=6.005000 offset_pts=0 start_pts=156031000 Frames=146 filename=47064c5a5d8f9e517145502a9836288f26.ts
+08:24:27.216 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f27.ts.tmp' for writing
+08:24:27.471 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:27.471 SegmentComplete=video:0 Index=27 Start=162.162000 End=167.959000 Duration=5.797000 offset_pts=0 start_pts=162162000 Frames=142 filename=47064c5a5d8f9e517145502a9836288f27.ts
+08:24:27.472 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f28.ts.tmp' for writing
+08:24:27.675 frame= 4147 fps=637 q=-1.0 size=   54616kB time=00:02:52.92 bitrate=2587.4kbits/s throttle=off speed=26.6x    
+08:24:27.733 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:27.734 SegmentComplete=video:0 Index=28 Start=168.001000 End=174.006000 Duration=6.005000 offset_pts=0 start_pts=168001000 Frames=145 filename=47064c5a5d8f9e517145502a9836288f28.ts
+08:24:27.734 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f29.ts.tmp' for writing
+08:24:28.077 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:28.078 SegmentComplete=video:0 Index=29 Start=174.007000 End=179.929000 Duration=5.922000 offset_pts=0 start_pts=174007000 Frames=142 filename=47064c5a5d8f9e517145502a9836288f29.ts
+08:24:28.078 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f30.ts.tmp' for writing
+08:24:28.175 frame= 4358 fps=622 q=-1.0 size=   58268kB time=00:03:01.94 bitrate=2623.5kbits/s throttle=off speed=  26x    
+08:24:28.206 
+
+[q] command received. Exiting.
+
+08:24:28.208 08:24:28.209 [segment @ 0x1ed6540] Opening '/config/transcoding-temp/47064c5a5d8f9e517145502a9836288f.m3u8.tmp' for writing
+08:24:28.209 SegmentComplete=video:0 Index=30 Start=180.055000 End=182.557000 Duration=2.502000 offset_pts=0 start_pts=180055000 Frames=63 filename=47064c5a5d8f9e517145502a9836288f30.ts
+08:24:28.209 frame= 4377 fps=621 q=-1.0 Lsize=   58503kB time=00:03:02.68 bitrate=2623.3kbits/s throttle=off speed=25.9x    
+08:24:28.209 video:54221kB audio:4282kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%
+    Last message repeated 1 times
+08:24:28.209 EXIT
+08:24:28.210 

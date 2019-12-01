@@ -1,0 +1,493 @@
+{
+    "name": "Fantastic Beasts: The Crimes of Grindelwald",
+    "tmdb_id": "338952",
+    "imdb_id": "tt4123430",
+    "hdmovielogo": [
+        {
+            "id": "242295",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-and-where-to-find-them-2-5c0435895f5c5.png",
+            "lang": "en",
+            "likes": "13"
+        },
+        {
+            "id": "210751",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-and-where-to-find-them-2-5a199ed75ee96.png",
+            "lang": "en",
+            "likes": "8"
+        },
+        {
+            "id": "242276",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-and-where-to-find-them-2-5c04248703268.png",
+            "lang": "pl",
+            "likes": "7"
+        },
+        {
+            "id": "250665",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-the-crimes-of-grindelwald-5c85559b18c88.png",
+            "lang": "es",
+            "likes": "5"
+        },
+        {
+            "id": "250792",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-the-crimes-of-grindelwald-5c8696a98d8f0.png",
+            "lang": "es",
+            "likes": "5"
+        },
+        {
+            "id": "242277",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-and-where-to-find-them-2-5c0424871de8c.png",
+            "lang": "pl",
+            "likes": "4"
+        },
+        {
+            "id": "219664",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-and-where-to-find-them-2-5a953a1c57f79.png",
+            "lang": "de",
+            "likes": "3"
+        },
+        {
+            "id": "221487",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-and-where-to-find-them-2-5aa81bc927df7.png",
+            "lang": "fr",
+            "likes": "3"
+        },
+        {
+            "id": "241468",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-and-where-to-find-them-2-5bf5e577f30c1.png",
+            "lang": "pt",
+            "likes": "3"
+        },
+        {
+            "id": "245110",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-and-where-to-find-them-2-5c34fe1546bc6.png",
+            "lang": "pl",
+            "likes": "3"
+        },
+        {
+            "id": "238957",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovielogo/fantastic-beasts-and-where-to-find-them-2-5bd4169ba5459.png",
+            "lang": "ru",
+            "likes": "2"
+        }
+    ],
+    "moviedisc": [
+        {
+            "id": "248622",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviedisc/fantastic-beasts-the-crimes-of-grindelwald-5c6b461de9d5d.png",
+            "lang": "en",
+            "likes": "10",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "248623",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviedisc/fantastic-beasts-the-crimes-of-grindelwald-5c6b462c9e429.png",
+            "lang": "en",
+            "likes": "8",
+            "disc": "1",
+            "disc_type": "uhd-bluray"
+        },
+        {
+            "id": "240331",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviedisc/fantastic-beasts-and-where-to-find-them-2-5be71e768e19f.png",
+            "lang": "en",
+            "likes": "8",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "250671",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviedisc/fantastic-beasts-the-crimes-of-grindelwald-5c855657d7dd8.png",
+            "lang": "es",
+            "likes": "3",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "254831",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviedisc/fantastic-beasts-the-crimes-of-grindelwald-5cb8e37372fbb.png",
+            "lang": "de",
+            "likes": "3",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "241083",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviedisc/fantastic-beasts-and-where-to-find-them-2-5bf0df656414a.png",
+            "lang": "pt",
+            "likes": "3",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "250670",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviedisc/fantastic-beasts-the-crimes-of-grindelwald-5c855647045ac.png",
+            "lang": "es",
+            "likes": "2",
+            "disc": "1",
+            "disc_type": "uhd-bluray"
+        },
+        {
+            "id": "248634",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviedisc/fantastic-beasts-the-crimes-of-grindelwald-5c6ba673995c1.png",
+            "lang": "fr",
+            "likes": "2",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "248638",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviedisc/fantastic-beasts-the-crimes-of-grindelwald-5c6badb8823de.png",
+            "lang": "fr",
+            "likes": "2",
+            "disc": "1",
+            "disc_type": "uhd-bluray"
+        }
+    ],
+    "moviebanner": [
+        {
+            "id": "240329",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebanner/fantastic-beasts-and-where-to-find-them-2-5be71e3e791b0.jpg",
+            "lang": "en",
+            "likes": "9"
+        },
+        {
+            "id": "240781",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebanner/fantastic-beasts-and-where-to-find-them-2-5becd911861ad.jpg",
+            "lang": "de",
+            "likes": "5"
+        },
+        {
+            "id": "242296",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebanner/fantastic-beasts-and-where-to-find-them-2-5c043824af432.jpg",
+            "lang": "pl",
+            "likes": "3"
+        },
+        {
+            "id": "241081",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebanner/fantastic-beasts-and-where-to-find-them-2-5bf0ce96d1cf1.jpg",
+            "lang": "pt",
+            "likes": "3"
+        },
+        {
+            "id": "250672",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebanner/fantastic-beasts-the-crimes-of-grindelwald-5c85567c9149c.jpg",
+            "lang": "es",
+            "likes": "2"
+        },
+        {
+            "id": "249763",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebanner/fantastic-beasts-the-crimes-of-grindelwald-5c7bb7d2774fe.jpg",
+            "lang": "fr",
+            "likes": "2"
+        }
+    ],
+    "moviethumb": [
+        {
+            "id": "240330",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviethumb/fantastic-beasts-and-where-to-find-them-2-5be71e570c842.jpg",
+            "lang": "en",
+            "likes": "9"
+        },
+        {
+            "id": "270608",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviethumb/fantastic-beasts-the-crimes-of-grindelwald-5d84a241bbaea.jpg",
+            "lang": "pl",
+            "likes": "5"
+        },
+        {
+            "id": "242297",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviethumb/fantastic-beasts-and-where-to-find-them-2-5c0438344956a.jpg",
+            "lang": "pl",
+            "likes": "5"
+        },
+        {
+            "id": "240782",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviethumb/fantastic-beasts-and-where-to-find-them-2-5becd91e79b1a.jpg",
+            "lang": "de",
+            "likes": "5"
+        },
+        {
+            "id": "240783",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviethumb/fantastic-beasts-and-where-to-find-them-2-5becd929bbe12.jpg",
+            "lang": "de",
+            "likes": "5"
+        },
+        {
+            "id": "250673",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviethumb/fantastic-beasts-the-crimes-of-grindelwald-5c855684e5011.jpg",
+            "lang": "es",
+            "likes": "4"
+        },
+        {
+            "id": "254829",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviethumb/fantastic-beasts-the-crimes-of-grindelwald-5cb8dc9de874c.jpg",
+            "lang": "de",
+            "likes": "3"
+        },
+        {
+            "id": "250674",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviethumb/fantastic-beasts-the-crimes-of-grindelwald-5c85568f31399.jpg",
+            "lang": "es",
+            "likes": "2"
+        },
+        {
+            "id": "249783",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviethumb/fantastic-beasts-the-crimes-of-grindelwald-5c7c20ce91fd7.jpg",
+            "lang": "fr",
+            "likes": "2"
+        },
+        {
+            "id": "241082",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviethumb/fantastic-beasts-and-where-to-find-them-2-5bf0d15c7d9bb.jpg",
+            "lang": "pt",
+            "likes": "2"
+        }
+    ],
+    "moviebackground": [
+        {
+            "id": "223803",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-and-where-to-find-them-2-5ac8ea35e5b07.jpg",
+            "lang": "",
+            "likes": "8"
+        },
+        {
+            "id": "270603",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-the-crimes-of-grindelwald-5d84a15c49d89.jpg",
+            "lang": "",
+            "likes": "6"
+        },
+        {
+            "id": "240778",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-and-where-to-find-them-2-5becd1f092aef.jpg",
+            "lang": "",
+            "likes": "6"
+        },
+        {
+            "id": "247960",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-and-where-to-find-them-2-5c5ff2f926167.jpg",
+            "lang": "",
+            "likes": "6"
+        },
+        {
+            "id": "212705",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-and-where-to-find-them-2-5a3605503e21e.jpg",
+            "lang": "",
+            "likes": "5"
+        },
+        {
+            "id": "231650",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-and-where-to-find-them-2-5b5aab1114dc6.jpg",
+            "lang": "",
+            "likes": "5"
+        },
+        {
+            "id": "249522",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-the-crimes-of-grindelwald-5c79170421027.jpg",
+            "lang": "",
+            "likes": "4"
+        },
+        {
+            "id": "231866",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-and-where-to-find-them-2-5b5e693b3aac4.jpg",
+            "lang": "",
+            "likes": "4"
+        },
+        {
+            "id": "232500",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-and-where-to-find-them-2-5b67c61e0d618.jpg",
+            "lang": "",
+            "likes": "3"
+        },
+        {
+            "id": "232501",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-and-where-to-find-them-2-5b67c639b2153.jpg",
+            "lang": "",
+            "likes": "3"
+        },
+        {
+            "id": "221548",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-and-where-to-find-them-2-5aa9124ecd086.jpg",
+            "lang": "",
+            "likes": "2"
+        },
+        {
+            "id": "221549",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/moviebackground/fantastic-beasts-and-where-to-find-them-2-5aa9124ed51fc.jpg",
+            "lang": "",
+            "likes": "1"
+        }
+    ],
+    "hdmovieclearart": [
+        {
+            "id": "238961",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovieclearart/fantastic-beasts-and-where-to-find-them-2-5bd41870cc375.png",
+            "lang": "en",
+            "likes": "7"
+        },
+        {
+            "id": "263467",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovieclearart/fantastic-beasts-the-crimes-of-grindelwald-5d18f12a4ccd2.png",
+            "lang": "de",
+            "likes": "5"
+        },
+        {
+            "id": "250791",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovieclearart/fantastic-beasts-the-crimes-of-grindelwald-5c86947f7372c.png",
+            "lang": "es",
+            "likes": "5"
+        },
+        {
+            "id": "241084",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovieclearart/fantastic-beasts-and-where-to-find-them-2-5bf0e2d2cdda6.png",
+            "lang": "pt",
+            "likes": "3"
+        },
+        {
+            "id": "238962",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/hdmovieclearart/fantastic-beasts-and-where-to-find-them-2-5bd41887db35e.png",
+            "lang": "ru",
+            "likes": "2"
+        }
+    ],
+    "movieposter": [
+        {
+            "id": "247958",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5c5ff2c505ed7.jpg",
+            "lang": "00",
+            "likes": "7"
+        },
+        {
+            "id": "247959",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5c5ff2e32ea9a.jpg",
+            "lang": "00",
+            "likes": "7"
+        },
+        {
+            "id": "240819",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5bed4dc6c03ce.jpg",
+            "lang": "en",
+            "likes": "7"
+        },
+        {
+            "id": "260873",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-the-crimes-of-grindelwald-5cf90b6a04506.jpg",
+            "lang": "en",
+            "likes": "5"
+        },
+        {
+            "id": "232499",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5b67c49f280b1.jpg",
+            "lang": "00",
+            "likes": "5"
+        },
+        {
+            "id": "244582",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5c2f46abf3b6a.jpg",
+            "lang": "en",
+            "likes": "5"
+        },
+        {
+            "id": "247957",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5c5ff2a746179.jpg",
+            "lang": "00",
+            "likes": "5"
+        },
+        {
+            "id": "260874",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-the-crimes-of-grindelwald-5cf90b99e8620.jpg",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "250667",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-the-crimes-of-grindelwald-5c8555b796b4b.jpg",
+            "lang": "es",
+            "likes": "4"
+        },
+        {
+            "id": "232497",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5b67c42fd7303.jpg",
+            "lang": "00",
+            "likes": "4"
+        },
+        {
+            "id": "232498",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5b67c484d2890.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "242278",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5c04249d3fe79.jpg",
+            "lang": "pl",
+            "likes": "3"
+        },
+        {
+            "id": "254827",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-the-crimes-of-grindelwald-5cb8db2b626b1.jpg",
+            "lang": "de",
+            "likes": "3"
+        },
+        {
+            "id": "238958",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5bd416b1592cd.jpg",
+            "lang": "ru",
+            "likes": "3"
+        },
+        {
+            "id": "239482",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5bd9e563864b1.jpg",
+            "lang": "pt",
+            "likes": "3"
+        },
+        {
+            "id": "221563",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5aa92d484e591.jpg",
+            "lang": "fr",
+            "likes": "3"
+        },
+        {
+            "id": "232828",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5b6cb055aaed9.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "250666",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-the-crimes-of-grindelwald-5c8555af67fdd.jpg",
+            "lang": "es",
+            "likes": "2"
+        },
+        {
+            "id": "254828",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-the-crimes-of-grindelwald-5cb8db7290f85.jpg",
+            "lang": "de",
+            "likes": "2"
+        },
+        {
+            "id": "249761",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-the-crimes-of-grindelwald-5c7bb6871d747.jpg",
+            "lang": "fr",
+            "likes": "2"
+        },
+        {
+            "id": "250668",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-the-crimes-of-grindelwald-5c8555c26fac0.jpg",
+            "lang": "es",
+            "likes": "1"
+        },
+        {
+            "id": "239940",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5be2046567ea3.jpeg",
+            "lang": "no",
+            "likes": "1"
+        },
+        {
+            "id": "248503",
+            "url": "https://assets.fanart.tv/fanart/movies/338952/movieposter/fantastic-beasts-and-where-to-find-them-2-5c6858b68a95a.jpg",
+            "lang": "en",
+            "likes": "1"
+        }
+    ]
+}
